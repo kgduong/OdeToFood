@@ -1,0 +1,23 @@
+﻿<Properties StartupConfiguration="{7C4F2C1B-6D28-4B53-8785-5D9C8AFE900D}|Default">
+  <MonoDevelop.Ide.ItemProperties.OdeToFood PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Views/Home/Details.cshtml">
+    <Files>
+      <File FileName="Controllers/HomeController.cs" Line="65" Column="131" />
+      <File FileName="Startup.cs" Line="48" Column="9" />
+      <File FileName="Views/Home/Index.cshtml" Line="25" Column="46" />
+      <File FileName="Models/Restaurant.cs" Line="11" Column="80" />
+      <File FileName="Models/CuisineType.cs" Line="11" Column="6" />
+      <File FileName="Views/Home/Create.cshtml" Line="8" Column="31" />
+      <File FileName="Services/IRestaurantData.cs" Line="10" Column="47" />
+      <File FileName="Services/InMemoryRestaurantData.cs" Line="39" Column="6" />
+      <File FileName="ViewModels/RestaurantEditModel.cs" Line="10" Column="34" />
+      <File FileName="Views/Home/Details.cshtml" Line="10" Column="1" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MultiItemStartupConfigurations />
+</Properties>
