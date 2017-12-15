@@ -23,7 +23,7 @@ namespace OdeToFood
         {
             services.AddMvc();
             //services.AddScoped<IRestaurantData, InMemoryRestaurantData>(); //AddScoped gives you InMemoryRestaurantData that is the same across the entire service
-            services.AddSingleton<IRestaurantData, InMemoryRestaurantData>();
+            services.AddSingleton<ISnackData, InMemorySnackData>();
             services.AddSingleton<IGreeter, Greeter>();
         }
 

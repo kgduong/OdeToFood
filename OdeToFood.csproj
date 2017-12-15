@@ -17,5 +17,7 @@
     <Folder Include="Views\Home\" />
     <Folder Include="Services\" />
     <Folder Include="ViewModels\" />
+    <Folder Include="Views\Shared\" />
+    <Folder Include="Models\Chip\" />
   </ItemGroup>
 </Project>

@@ -1,17 +1,15 @@
 ﻿<Properties StartupConfiguration="{7C4F2C1B-6D28-4B53-8785-5D9C8AFE900D}|Default">
   <MonoDevelop.Ide.ItemProperties.OdeToFood PreferredExecutionTarget="MonoDevelop.Default" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Views/Home/Details.cshtml">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Models/Chip/Chip.cs">
     <Files>
-      <File FileName="Controllers/HomeController.cs" Line="65" Column="131" />
-      <File FileName="Startup.cs" Line="48" Column="9" />
-      <File FileName="Views/Home/Index.cshtml" Line="25" Column="46" />
-      <File FileName="Models/Restaurant.cs" Line="11" Column="80" />
-      <File FileName="Models/CuisineType.cs" Line="11" Column="6" />
-      <File FileName="Views/Home/Create.cshtml" Line="8" Column="31" />
-      <File FileName="Services/IRestaurantData.cs" Line="10" Column="47" />
-      <File FileName="Services/InMemoryRestaurantData.cs" Line="39" Column="6" />
-      <File FileName="ViewModels/RestaurantEditModel.cs" Line="10" Column="34" />
-      <File FileName="Views/Home/Details.cshtml" Line="10" Column="1" />
+      <File FileName="Services/IGreeter.cs" Line="1" Column="1" />
+      <File FileName="Controllers/HomeController.cs" Line="55" Column="38" />
+      <File FileName="ViewModels/HomeIndexViewModel.cs" Line="10" Column="34" />
+      <File FileName="ViewModels/ChipEditModel.cs" Line="16" Column="1" />
+      <File FileName="Views/Home/VoteChip.cshtml" Line="25" Column="30" />
+      <File FileName="Views/Home/ChipDetails.cshtml" Line="15" Column="1" />
+      <File FileName="Views/Home/Index.cshtml" Line="28" Column="2" />
+      <File FileName="Models/Chip/Chip.cs" Line="5" Column="18" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />

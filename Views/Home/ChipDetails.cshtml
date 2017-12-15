@@ -1,0 +1,14 @@
+﻿@model OdeToFood.Models.Chip.Chip
+@{
+    ViewBag.Title = Model.ChipType + " " + Model.Flavor;
+}
+
+<h1>@Model.ChipType @Model.Flavor</h1>
+<div>
+    Id: @Model.Id
+</div>
+<div>
+    Flavor: @Model.Flavor
+</div>
+
+<a asp-action="Index" asp-controller="Home">Home</a>

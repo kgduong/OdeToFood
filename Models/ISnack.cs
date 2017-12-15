@@ -3,13 +3,15 @@ using Microsoft.AspNetCore.Mvc.ModelBinding.Metadata;
 using System.ComponentModel.DataAnnotations;
 namespace OdeToFood.Models
 {
-    public class Restaurant
+    public interface ISnack
     {
-        public int Id { get; set; }
+        int Rating { get; set; }
+        int Id { get; set; }
 
-        [Display(Name="Restaurant Name")]
+        [Display(Name="Snack Flavor")]
         [Required, MaxLength(80)] //Using attributes for client side validation
-        public string Name { get; set; }
-        public CuisineType Cuisine { get; set; }
+        string Flavor { get; set; }
+        SnackType SnackType { get; set; }
+
     }
 }

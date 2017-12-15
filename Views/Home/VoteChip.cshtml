@@ -1,0 +1,27 @@
+﻿@using OdeToFood.ViewModels
+@using OdeToFood.Models
+@model SnackEditModel
+
+@{
+    ViewBag.Title = "Create";;
+}
+
+<h1>Create</h1>
+
+<form method="post">
+    <div>
+        <label asp-for="ChipType"/>
+        <select asp-for="ChipType" 
+            asp-items="@Html.GetEnumSelectList<ChipType>()">
+        </select>
+        <span asp-validation-for="ChipType"></span>
+    </div>
+    <div>
+        <label asp-for="Flavor"></label>
+        <input asp-for="Flavor"/>
+        <span asp-validation-for="Flavor"></span>
+    </div>
+
+    <input type="submit" name="save" value="Save"/>
+    
+</form>
